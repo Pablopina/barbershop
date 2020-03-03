@@ -1,0 +1,160 @@
+footer p {
+  color: #6C6E70;
+}
+
+footer {
+  background-color: #121619;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+nav {
+  background: #121619;
+  font-size: 16px;
+  color: 300;
+}
+nav .nav-link {
+  color: #fff !important;
+}
+nav img {
+  width: 55px;
+  height: 25px;
+}
+
+.fotnav {
+  background: #E6e7e7;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 900;
+  font-family: "Playfair Display";
+  font-style: italic;
+  margin: 0 auto;
+  display: block;
+  width: 493px;
+  padding-top: 137px;
+}
+@media (max-width: 767px) {
+  h1 {
+    width: 244px;
+    font-size: 29px;
+  }
+}
+
+#section1 {
+  background-image: url("../assets/images/post-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 55px);
+  width: 100%;
+  margin-top: 55px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #section1 {
+    font-size: 34px;
+    max-height: 400px;
+  }
+}
+
+i {
+  color: #fff;
+  padding-top: 80px;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.p1 {
+  padding-top: 100px !important;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.pp1 {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 50px;
+  text-align: justify;
+}
+
+.p11 {
+  text-align: justify;
+}
+
+.pp2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+.nt {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nt1 {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #D76C69;
+  margin-top: -32px;
+  text-align: center;
+}
+
+.nt2 {
+  text-align: justify;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 2em;
+}
+
+.redonda {
+  border-radius: 50%;
+  width: 170px;
+}
+
+footer img {
+  width: 120px;
+  height: 55px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .nt2 {
+    display: none;
+  }
+
+  .icono-abajo {
+    font-size: 60px !important;
+  }
+
+  .redonda {
+    display: block;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=barberstyle.css.map */

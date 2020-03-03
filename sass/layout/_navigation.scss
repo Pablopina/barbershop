@@ -1,0 +1,24 @@
+@import "../abstracts/variables";
+
+nav{
+    
+    background: $eb;
+    font-size: $medium;
+    color: $light;
+    .nav-link{
+        color: $white !important;
+    }
+    img{
+        width: 55px; 
+        height: 25px;
+    }
+}
+.fotnav{
+    background: $platinum;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    display:block;
+    margin:auto;
+    
+}
+

@@ -1,0 +1,9 @@
+@import "../abstracts/variables";
+
+
+@mixin ptext{
+
+    font-family: $rob;
+    font-size: $medium;
+    font-weight: $light;
+}

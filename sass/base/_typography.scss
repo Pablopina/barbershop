@@ -1,0 +1,18 @@
+@import "../abstracts/variables";
+
+h1{
+    font-size: $xx-large;
+    color: $white;
+    font-weight: $black;
+    font-family: $playfair;
+    font-style: italic;
+    margin: 0 auto;
+    display: block;
+    width: 493px;
+    padding-top: 137px;
+    @media (max-width: 767px) {
+        width: 244px;
+        font-size: 29px;
+    }
+}
+

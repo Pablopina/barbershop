@@ -1,0 +1,55 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+
+
+p{
+    @include ptext;
+    padding-top: 20px;
+    
+}
+.p1{
+    padding-top: 100px !important;
+    @include ptext;  
+    text-align: justify;
+    
+    
+
+}
+
+.pp1{
+    font-family: $playfair;
+    font-size: $medium;
+    font-weight: $regular;
+    padding-top: 50px;
+    text-align: justify;
+
+}
+.p11{
+    text-align: justify;
+}
+.pp2{
+    @include ptext;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+.nt{
+    font-family: $playfair;
+    font-weight: $black;
+    font-style: italic;
+    font-size: $large;
+    text-align: center;
+
+}
+.nt1{
+    font-family: $rob;
+    font-weight: $light;
+    color: #D76C69;
+    margin-top: -32px;
+    text-align: center;
+    
+}
+.nt2{
+    text-align: justify;
+    text-align: center;
+}
